@@ -1,6 +1,4 @@
-# Homework #5: Custom Visualization Design
-
-In this homework, you will create a unique visualization that goes beyond the "common chart types" that you already exist. **This assignment is worth 10 points.**
+Custom Visualization Design
 
 The audience for this visualization is visitors to a musuem. The goal is to create a visually interesting and informative visualization graphic/infographic exhibit that communicates (some or all of) the dataset effectively and in a creative manner (as opposed to supporting in-depth analysis such as might be done by domain experts).
 
@@ -32,5 +30,3 @@ There are four datasets available for this homework (choose one).
 * You may choose to create either a static or interactive exhibit.
 * Above or below your chart, have a title and include a short description that explains your design (marks, channels, interactions). Below that description, state which category of "Custom Visualization" your submission falls into (either modded, combinatorial, or novel), and explain why it does.
 * If you created your visualization by modified an existing D3 block or example, also provide a link to the original source code and describe (in detail) how you modified it to create your chart.
-
-You are free (and encouraged!) to be creative on this assignment, including the use of abstract, artistic, thematic, esoteric, evocative, atmospheric, and illustrative designs. Don't submit just a basic D3 block (bar chart, scatterplot, pie/donut chart, line chart, node-link diagram, tree, etc.), or you'll receive a 0 on this assignment. Especially creative or interesting submissions are eligible for up to 2 points extra credit.
