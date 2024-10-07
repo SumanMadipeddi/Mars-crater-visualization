@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework #5: Custom Visualization - CSE 578 - Spring 2024</title>
+    <link rel="stylesheet" href="crater.css">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+</head>
+<body>
+    <h1 class="text-center">Mars Crater Visualization</h1>
+    <div id="visualization"></div>
+    <div id="description">
+        <h1>Mars Crater Visualization</h1>
+        <h3>Description:</h3>
+        <p>This visualization maps the geographical distribution and attributes of craters on Mars. It employs a heatmap to depict crater density, visualized through a gradient color scale, with warmer colors indicating higher densities. Each crater is represented by a circle, and the depth is represented by a dynamic "lollipop" marker that extends vertically from the crater's base point on the map to demonstrate depth. The head of the lollipop changes color based on the stratigraphic layers of the crater. Interactive elements include tooltips, which reveal detailed information about each crater upon mouse hover, such as diameter, depth, and stratigraphic composition.</p>
+        <h3>Custom Visualization Category: Combinatorial</h3>
+        <p>This visualization is categorized as "Combinatorial" because it blends several established D3 techniques and visual metaphors. It utilizes heatmaps to show spatial density, circles to represent crater diameters, and colors to indicate different layers. Additionally, 'lollipop' markers provide depth exploration, complemented by interactive tooltips that offer detailed data insights. This integration creates a multi-layered and interactive experience that deepens user understanding and transcends conventional static visualizations.</p>
+        <h4>Modifications:</h4>
+        <p>This visualization modifications include:</p>
+        <ul>
+            <li>Integration of a novel "lollipop" marker design to encode crater depth and stratigraphic data dynamically.</li>
+            <li>Enhancement of the heatmap to serve as a base layer, illustrating crater density with a customized color gradient.</li>
+            <li>Addition of interactive tooltips that provide detailed data specifics dynamically upon interaction.</li>
+            <li>Custom legend design that explains both the heatmap's color gradient and the stratigraphic layering of craters.</li>
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
